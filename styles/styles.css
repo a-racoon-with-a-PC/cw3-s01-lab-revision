@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+}
+
+div.conteneur{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+header.header-principal{
+    background-color: #FF9800;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #FFFCFC;
+}
+
+section.hero{
+    background-color: #FFC107;
+    height: 300px;
+    color: #2D2D2D;
+    font-family: 'Expletus Sans', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin: 0px;
+    font-size: 96px;
+}
+
+section.information{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section.information div.conteneur{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article.carte{
+    width: 360px;
+    margin: 0px 15px;
+    padding: 0px;
+}
+
+article.carte header{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article.carte header.HTML{background-color: #E34E26;}
+article.carte header.CSS{background-color: #0270BB;}
+article.carte header.JS{background-color: #F8DC3D;}
+
+h2{
+    color: #FFFFFF;
+    font-family: 'Expletus Sans', cursive;
+    font-size: 64px;
+}
+
+article.carte div.content{
+    background-color: #F0F0F0;
+    height: 324px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+article p{
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #2D2D2D;
+}
+
+footer.carte-footer{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a.bouton{
+    background-color: #FFC107;
+    width: 95px;
+    height: 37px;
+    color: #2D2D2D;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #E64A19;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.bouton:hover{
+    background-color: #E64A19;
+    color: #FFFFFF;
+}
+
+span{
+    color: #E64A19;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+footer.footer-principal{
+    height: 60px;
+    background-color: #E64A19;
+}
+
+h3{
+    padding-top: 20px;
+    color: #FFFFFF;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
